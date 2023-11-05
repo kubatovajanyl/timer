@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(28, 28, 29);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+    text-shadow: 0 0 12px rgb(199, 91, 241);
+}
+
+.timers_wrapper {
+    background-color: rgb(58, 58, 58);
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    border-radius: 10px;
+    width: 500px;
+    text-shadow: 0 0 12px rgb(199, 91, 241);
+}
+
+.timer_total {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400px;
+    font-size: 35px;
+    color: aliceblue;
+    background-color: rgb(75, 75, 75);
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 0 0 12px rgb(199, 91, 241);
+}
+
+.time {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(75, 75, 75);
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    text-shadow: 0 0 12px rgb(199, 91, 241)
+}
